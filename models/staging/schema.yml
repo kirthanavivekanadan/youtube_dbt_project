@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: youtube_schema
+    database: youtube_db  # Your Snowflake DB name
+    schema: youtube_schema
+    tables:
+      - name: youtube_video_data
+
+models:
+  - name: stg_youtube_video
+    description: "Cleaned YouTube data"

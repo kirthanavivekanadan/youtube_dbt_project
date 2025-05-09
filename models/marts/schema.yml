@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: dim_video
+    description: "Unique video metadata"
+    columns:
+      - name: video_id
+        description: "YouTube video ID"
+        tests:
+          - not_null
+          - unique
+      - name: title
+        description: "Video title"
+      - name: channel_id
+        description: "Uploader's channel ID"
+
+  - name: fact_video_metrics
+    description: "Daily metrics for videos"
+    columns:
+      - name: video_id
+        description: "YouTube video ID"
+        tests:
+          - not_null
+      - name: metric_date
+        description: "Date for aggregated metrics"
+        tests:
+          - not_null
+      - name: view_count
+        description: "Total views on this date"
