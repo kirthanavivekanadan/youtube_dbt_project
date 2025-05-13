@@ -14,5 +14,5 @@ phases:
       - python ingestion/youtube_data_pipeline.py
 artifacts:
   files:
-    - youtube_raw_data.csv
+    - '**/*'  # Optional: Keep if you want to include any log files or outputs
   discard-paths: yes
