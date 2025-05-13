@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - echo "Installing dependencies..."
+      - pip install --upgrade pip
+      - pip install google-api-python-client pandas snowflake-connector-python
+  build:
+    commands:
+      - echo "Running YouTube data fetching script..."
+      - python ingestion/fetch_and_load.py
+artifacts:
+  files:
+    - youtube_raw_data.csv
+  discard-paths: yes
