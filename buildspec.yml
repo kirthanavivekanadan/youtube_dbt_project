@@ -11,7 +11,7 @@ phases:
   build:
     commands:
       - echo "Running YouTube data fetching script..."
-      - python ingestion/fetch_and_load.py
+      - python ingestion/youtube_data_pipeline.py
 artifacts:
   files:
     - youtube_raw_data.csv
