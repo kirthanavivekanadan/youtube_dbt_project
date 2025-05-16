@@ -1,11 +1,11 @@
 
-# 📺 YouTube Data Pipeline
+#  YouTube Data Pipeline
 
 This project fetches data from the YouTube API using a Python script and automates the data flow into Snowflake using AWS services. The data is then transformed using DBT Cloud and deployed back to Snowflake for analysis. The pipeline is triggered automatically via GitHub pushes using AWS CodePipeline and CodeBuild.
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 - **YouTube API**: Data is fetched from the YouTube Data API.
 - **GitHub**: Stores the Python script and triggers the pipeline via code pushes.
@@ -16,13 +16,13 @@ This project fetches data from the YouTube API using a Python script and automat
 
 ---
 
-## 🗺️ Architecture Diagram
+## Architecture Diagram
 ![image](https://github.com/user-attachments/assets/96ebce14-a144-475e-a453-9ae2caa4245c)
 
 
-## ⚙️ Setup and Configuration
+## Setup and Configuration
 
-### 🔑 Prerequisites
+### Prerequisites
 
 - GitHub account and repository
 - AWS account with permissions for CodePipeline and CodeBuild
@@ -32,7 +32,7 @@ This project fetches data from the YouTube API using a Python script and automat
 
 ---
 
-### 🪜 Steps
+### Steps
 
 1. **Set up GitHub Repository**
    - Store your `youtube_data_pipeline.py` script.
@@ -59,7 +59,7 @@ This project fetches data from the YouTube API using a Python script and automat
 
 ---
 
-## ▶️ Running the Project
+## Running the Project
 
 Once everything is set up:
 
