@@ -35,8 +35,8 @@ This project fetches data from the YouTube API using a Python script and automat
 ### 🪜 Steps
 
 1. **Set up GitHub Repository**
-   - Store your `extract_youtube_data.py` script.
-   - Add `requirements.txt` and `buildspec.yml`.
+   - Store your `youtube_data_pipeline.py` script.
+   - Add`buildspec.yml`.
 
 2. **Create CodePipeline in AWS**
    - Connect to the GitHub repository.
