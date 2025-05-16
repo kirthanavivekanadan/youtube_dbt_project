@@ -17,7 +17,7 @@ This project fetches data from the YouTube API using a Python script and automat
 ---
 
 ## 🗺️ Architecture Diagram
-https://github.com/kirthanavivekanadan/youtube_dbt_project/edit/main/README.md#:~:text=youtube_API.-,png,-Editing%20README.md
+youtube_API.png
 
 ## ⚙️ Setup and Configuration
 
