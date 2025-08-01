@@ -9,9 +9,9 @@ API_KEY = os.getenv('YOUTUBE_API_KEY', 'AIzaSyB-_2f6LvU1MqG_x90j6yDLBbPTihkpX4s'
 CHANNEL_ID = os.getenv('YOUTUBE_CHANNEL_ID', 'UCh9nVJoWXmFb7sLApWGcLPQ')
 
 # Snowflake connection details from environment variables
-SNOWFLAKE_USER = os.getenv('SNOWFLAKE_USER', 'KIRTHIMAX')
-SNOWFLAKE_PASSWORD = os.getenv('SNOWFLAKE_PASSWORD', 'Orange_Max@1234',)
-SNOWFLAKE_ACCOUNT = os.getenv('SNOWFLAKE_ACCOUNT', 'hsizyrc-kt23145')
+SNOWFLAKE_USER = os.getenv('SNOWFLAKE_USER', 'USERNAME')
+SNOWFLAKE_PASSWORD = os.getenv('SNOWFLAKE_PASSWORD', 'password',)
+SNOWFLAKE_ACCOUNT = os.getenv('SNOWFLAKE_ACCOUNT', 'hsizyrc-')
 SNOWFLAKE_DATABASE = os.getenv('SNOWFLAKE_DATABASE', 'youtube_db')
 SNOWFLAKE_SCHEMA = os.getenv('SNOWFLAKE_SCHEMA', 'youtube_schema')
 SNOWFLAKE_WAREHOUSE = os.getenv('SNOWFLAKE_WAREHOUSE', 'youtube_wh')
